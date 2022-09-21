@@ -156,15 +156,34 @@ print(boo)
 
 # dictionaries
 # another data structure that stores data that can be unstructured
-# employee = {'first_name': 'steven',
-#             'last_name': 'pretti',
-#              'weight': 37.2,
-#               'size': 5.77
-#              'height:' 6}
-# print(employee['weight'])
+employee = {'first_name': 'steven',
+             'last_name': 'pretti',
+               'weight': 37.2,
+               'size': 5.77,
+               'height': 6}
+print(employee['height'])
+
+
+warrior = { ' made_by': 'hbomax',
+'release_date' : 2018,
+'budget': '24million',
+'rotten_tomatoes_score':'fresh'}
+print(warrior['release_date'])
+print(warrior['budget'])
+warrior['score'] = 78 # how you add to a dictionary
+print(warrior.items())
+print(warrior.values())
+
 
 #challenge 1
 # Create a dictionary called my_dict that stores the following information about a person:
+
+my_dict : {'name':'Karen',
+'surname' :'Jurgens',
+'age' :'35',
+'occupation': 'journalist'}
+
+
 # name: Karen
 # surname: Jurgens
 # age: 35
